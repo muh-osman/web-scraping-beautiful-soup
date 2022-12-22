@@ -38,7 +38,7 @@ def main(html):
             match_time = all_matches[i].find('div', {'class': 'MResult'}).find(
                 'span', {'class': 'time'}).text.strip()
 
-            # Add Data to List(matches_details = [])
+            # Add Data to Empty List(matches_details = [])
             matches_details.append({
                 "البطولة": matche_title,
                 "الفريق الأول": team_A,
